@@ -1,8 +1,8 @@
 <template>
     <div>
         <form @submit="addTodo">
-            <input type="text" v-model="title" name="title" placeholder="...">
-            <input type="submit" value="Add" class="btn"> 
+            <input type="text" v-model="title" name="title" placeholder="Add Todo...">
+            <p><input type="submit" value="Add" class="btn"> </p>
         </form>
     </div>
 </template>
@@ -32,7 +32,26 @@ export default {
 </script>
 
 <style scoped>
-
+    .btn{
+        color: white;
+        background: lightblue;
+        border: 0px;
+        width: 60%;
+        padding: 10px;
+        border-radius: 10px;
+    }
+    input[type=text], select {
+        width: 60%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid lightblue;
+        border-radius: 0px;
+        box-sizing: border-box;
+        outline-color: white;
+        color: black;
+        border-radius: 10px;
+}
 </style>
 
 

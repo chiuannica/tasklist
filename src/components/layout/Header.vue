@@ -12,7 +12,9 @@ export default {
 
 <style scoped>
     .header {
-        background: pink;
-        color: white;
+        background: none;
+        color: pink;
+        text-align: center;
+        font-size: 24pt;
     }
 </style>
