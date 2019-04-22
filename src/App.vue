@@ -23,17 +23,17 @@ export default {
       todos: [
         {
           id: 1,
-          title: "Very important",
+          title: "Feed the dog",
           completed: false
         },
         {
           id: 2,
-          title: "Very very important",
+          title: "Vacuum",
           completed: false
         },
         {
           id: 3,
-          title: "Very very very important",
+          title: "Do homework",
           completed: false
         }
       ]
@@ -51,13 +51,27 @@ export default {
 </script>
 
 <style>
+@font-face {
+  font-family: 'Montserrat';
+
+  src: url("Montserrat-Light.ttf");
+}
+html{
+  background-image: url("bg.png");
+	background-position: top;
+}
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   line-height: 1.4;
   color: #2c3e50;
   margin-top: 60px;
+}
+button{
+  font-family: 'Montserrat';
 }
 </style>
