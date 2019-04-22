@@ -1,4 +1,5 @@
-# vue_todolist
+A to-do list I made to learn vue at DragonHacks.
+Yay!
 
 ## Project setup
 ```
