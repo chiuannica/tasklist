@@ -1,4 +1,5 @@
-A to-do list I made to learn vue at DragonHacks.
+Made at DragonHacks to learn Vue
+
 Yay!
 
 ## Project setup
